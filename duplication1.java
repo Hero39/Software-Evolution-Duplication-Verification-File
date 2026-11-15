@@ -1,23 +1,4 @@
-package testing;
-
-class Example {
-	public static String hasNoDocstring() {
-		return "NO DOCSTRING";
-	}
-	
-	/**
-	 * Returns a string
-	 * 
-	 * @return A string
-	 */
-	public static String hasDocstring() {
-		return "DOCSTRING";
-	}
-	
-	/*
-	 * Not a valid Javadoc
-	 */
-	public static int duplicate1() {
+int duplicate1() {
 		int a = 1;
 		int b = 1;
 		int c = 1;
@@ -26,5 +7,4 @@ class Example {
 		int f = 1;
 		if (a + b == 2) return b;
 		return a;
-	}
 }
