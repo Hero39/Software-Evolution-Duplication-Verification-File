@@ -1,3 +1,4 @@
+package testing;
 int duplicate2() {
 		int a = 1;
 		int b = 1;
